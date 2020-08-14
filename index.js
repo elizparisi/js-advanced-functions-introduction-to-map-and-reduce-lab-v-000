@@ -38,7 +38,8 @@ function reduceToTotal(sourceArray, startingPoint=0) {
 function reduceAllToTrue(sourceArray){
   let result = true;
   for (let i = 0; i < sourceArray.length; i++){
-   if (!sourceArray[i]);
+   if (!sourceArray[i])
+    return fasle;
   }
   return result;
 }
