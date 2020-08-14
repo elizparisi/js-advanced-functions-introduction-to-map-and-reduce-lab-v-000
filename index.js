@@ -49,5 +49,5 @@ function reduceAnyToTrue(sourceArray){
     if (sourceArray[i] === true)
       return true;
   }
-  return result;
+  return false;
 }
