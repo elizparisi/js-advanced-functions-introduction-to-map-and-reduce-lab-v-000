@@ -46,8 +46,9 @@ function reduceAllToTrue(sourceArray){
 
 function reduceAnyToTrue(sourceArray){
   for (let i = 0; i < sourceArray.length; i++){
-    if (sourceArray[i] === true)
+    if (sourceArray[i] === true){
       return true;
+    }
   }
   return false;
 }
