@@ -37,7 +37,7 @@ function reduceToTotal(sourceArray, startingPoint=0) {
 
 function reduceAllToTrue(sourceArray){
   let result = true;
-  for (let i = 0; i < sourceArray.length && result == true; i++){
+  for (let i = 0; i < sourceArray.length && result === true; i++){
    result = !!sourceArray[i];
   }
   return result;
