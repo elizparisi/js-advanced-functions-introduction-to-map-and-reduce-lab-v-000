@@ -35,12 +35,12 @@ function reduceToTotal(sourceArray, startingPoint=0) {
   return startingPoint;
 }
 
-function reduceAllToTrue(sourceArray){
+function reduceToAllTrue(sourceArray){
   for (let i = 0; i < sourceArray.length; i++){
    if (!sourceArray[i])
     return false;
   }
-  return result;
+  return true;
 }
 
 function reduceToAnyTrue(sourceArray){
